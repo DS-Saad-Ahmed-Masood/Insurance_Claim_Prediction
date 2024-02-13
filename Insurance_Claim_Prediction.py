@@ -2,8 +2,8 @@
 import pandas as pd
 
 # Load the data
-df=pd.read_csv(r'C:\Users\SAM HP\Desktop\KHI AI backup (till 05-Feb-24)\Karachi AI 2\Data Analyst (CDA)\Virtual Internship Projects\Quick Model Insurance Expected Claim Amount for our Insurance Department Use Case\DataSet\insurance_data.csv')
-
+#df=pd.read_csv(r'C:\Users\SAM HP\Desktop\DataSet\insurance_data.csv')
+df=pd.read_csv('insurance_data.csv')
 print("First few rows of the dataframe:")
 print(df.head())
 
